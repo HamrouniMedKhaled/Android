@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/LoginFormContainer"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background_atbm"
+    tools:context=".ParametreActivity" >
+    
+    <TextView 
+        style="@style/titre_activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titre_activity_parametre"/>
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/divider"
+        android:paddingBottom="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitXY"
+        style="@style/Divider"
+        android:src="@android:drawable/divider_horizontal_dim_dark" />
+    
+    <Button
+        android:id="@+id/bModifierMdp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_modifier_mot_de_passe" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+    
+    <Button
+        android:id="@+id/bAjouterEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_ajouter_e_mail" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+    
+    <Button
+        android:id="@+id/bSupprimerEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_supprimer_e_mail" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+    
+</LinearLayout>

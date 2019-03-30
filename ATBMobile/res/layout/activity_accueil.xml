@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background_atbm"
+    style="@style/LoginFormContainer"
+    >
+    
+    <TextView 
+                style="@style/titre_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titre_activity_accueil"/>
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" 
+        android:orientation="horizontal"
+        style="@style/text_button"
+        >
+        
+        <Button
+        android:id="@+id/bCompte"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boutonCompte" 
+        android:width="150dp"
+        android:layout_weight="1"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+        
+        <Button
+        android:id="@+id/bServiceInscription"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/boutonServiceInscription"
+        android:width="150dp" 
+        android:layout_weight="1"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+        
+        
+    </LinearLayout>
+    
+     <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/divider"
+        android:paddingBottom="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitXY"
+        style="@style/Divider"
+        android:src="@android:drawable/divider_horizontal_dim_dark" />
+        
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/service_public"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/bServiceConversion"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/conversion_devise" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+     <Button
+        android:id="@+id/bServiceProduit"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/produit_ATB" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+      <Button
+        android:id="@+id/bServiceLocalisation"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/localiser_GAB" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+
+</LinearLayout>

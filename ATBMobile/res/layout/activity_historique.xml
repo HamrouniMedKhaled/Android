@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/LoginFormContainer"
+    android:background="@drawable/background_atbm"
+    android:orientation="vertical" 
+    >    
+    
+    <TextView 
+                style="@style/titre_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titre_activity_historique"/>
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+    
+    
+    <ScrollView 
+        android:id="@+id/scroll_view_historique"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        
+        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        
+        <TextView
+        android:id="@+id/numCompte"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numero_compte" 
+        />
+        
+        <ListView 
+        android:id="@+id/list_num_compte"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:choiceMode="singleChoice"
+        >
+        
+        </ListView>
+        
+        <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+        
+        <TextView
+        android:id="@+id/dateDebut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_debut" 
+        />
+        
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        
+            <Spinner
+            android:id="@+id/date_debut_jour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            />
+        
+        <TextView
+            android:id="@+id/date_debut_mois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            />
+        
+        <TextView
+            android:id="@+id/date_debut_annee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            />
+            
+        </LinearLayout>
+        
+        
+        
+        <TextView
+        android:id="@+id/datefin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_fin" 
+        />
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <Spinner
+            android:id="@+id/date_fin_jour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            />
+        
+        <TextView
+            android:id="@+id/date_fin_mois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            />
+        
+        <TextView
+            android:id="@+id/date_fin_annee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            />
+            
+        </LinearLayout>
+        
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            
+            <Button
+                android:id="@+id/button_statistique"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:layout_gravity="center"
+                android:width="150dp"
+                android:layout_weight="1"
+                android:background="@drawable/boutonpersonnalise"
+                android:text="@string/bouton_statistique"
+                style="@style/text_button"/>
+            
+            
+            
+        </LinearLayout>
+        
+        
+        
+        </LinearLayout> 
+        
+    </ScrollView>
+    
+
+</LinearLayout>
+

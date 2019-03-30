@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carte_porteur">Porteur de carte:</string>
+    <string name="hint_carte_porteur">Tapez le nom de porteur</string>
+    <string name="carte_type">Type de carte:</string>
+    <string-array name="les_types">
+        <item>ATB Lella</item>
+        <item>ATB Moussafer</item>
+        <item>Carte El Khir</item>
+        <item>ATB MasterCard</item>
+        <item>ATB Visa Electron crédit</item>
+        <item>ATB Visa Gold</item>
+        <item>Carte C\'Jeune</item>
+        <item>Carte Amex</item>
+    </string-array>
+    <string name="carte_plafond">Plafond de retrait</string>
+    <string-array name="les_plafonds">
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </string-array>
+    <string name="carte_validite">Validité</string>
+    <string-array name="les_validites">
+        <item>6 mois</item>
+        <item>12 mois</item>
+        <item>18 mois</item>
+        <item>24 mois</item>
+    </string-array>
+</resources>

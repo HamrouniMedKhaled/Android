@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    
+    <string name="form_nom">Nom:</string>
+    <string name="form_nom_hint">Tapez votre nom</string>
+    <string name="form_prenom">Prenom:</string>
+    <string name="form_prenom_hint">Tapez votre prenom</string>
+    <string name="form_cin">CIN:</string>
+    <string name="form_cin_hint">Tapez votre CIN</string>
+    <string name="form_mail">e-mail:</string>
+    <string name="form_mail_hint">tapez votre email:</string>
+    <string name="form_statue">Statue:</string>
+    <string name="form_mdp">Mot de passe:</string>
+    <string name="form_mdp_hint1">Tapez votre mot de passe</string>
+    <string name="form_mdp_hint2">Rettapez votre mot de passe</string>
+    <string name="radio_Monsieur">Mr</string>
+    <string name="radio_Mademoiselle">Mlle</string>
+    <string name="radio_Madame">Mme</string>
+    <string name="form_bouton_enregistrer">Enregistrer</string>
+    <string name="form_bouton_annuler">Annuler</string>
+    
+    <string name="login_progress_register">Chargement en cours&#8230;</string>
+    <string name="error_not_equal_password">Mot de passe n\'est pas compatible</string>
+    <string name="error_cin">CIN doit être de 8 chiffres</string>
+    
+</resources>

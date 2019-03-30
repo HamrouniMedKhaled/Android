@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/LoginFormContainer"
+    android:background="@drawable/background_atbm"
+    android:orientation="vertical"
+    tools:context=".DeleteMailActivity" >
+
+    <TextView 
+                style="@style/titre_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titre_activity_delete_mail"/>
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+            
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Mot de passe personnel"/>
+        
+            <EditText 
+               android:id="@+id/editPwdPersonnelMailsupprime"
+               style="@style/champs_text"
+               android:hint="tapez votre mot de passe"
+               android:imeActionId="@+id/SuppMail"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+               android:singleLine="true"
+               />
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+            
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Votre e-mail"
+               android:paddingBottom="5dp"/>
+        
+            <EditText 
+               android:id="@+id/editMailsupprime"
+               style="@style/champs_text"
+               android:inputType="textEmailAddress"
+               android:hint="tapez le e-mail à supprimer"
+               android:singleLine="true"
+               android:paddingBottom="10dp"
+               />
+            
+            <Button
+                android:id="@+id/button_Delete_mail"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:layout_gravity="center"
+                android:width="150dp"
+                android:background="@drawable/boutonpersonnalise"
+                android:text="Supprimer"
+                style="@style/text_button"/>
+            
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Ici vous pouvez supprimer un e-mail"
+               android:layout_marginTop="30dp"/>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/layout_carta_moussafer">
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        >
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+             <ImageView 
+        android:src="@drawable/atb_moussafer"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+	    android:padding="10dp"
+            />
+    
+    <TextView 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Avantage"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="@string/desc_carte_moussafer"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Avec votre carte moussafer, voyagez sans soucis grâce à la couverture assistance voyage à l’étranger qui comprend"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="@string/service_carte_moussafer"/>
+            
+        
+        
+        <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Conseil"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="@string/conseil_carte_moussafer"/>
+            
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="num_chequier">Numero chequier</string>
+    <string name="num_carte">Numero carte</string>
+    <string name="raisan">Raison d\'opposition</string>
+    <string-array name="les_diff_raison_ch">
+        <item>Votre chéquier est perdu</item>
+        <item>Votre chéquier est volé</item>
+    </string-array>
+    
+    <string-array name="les_diff_raison_c">
+        <item>Votre carte est perdu</item>
+        <item>Votre carte est volé</item>
+    </string-array>
+    
+    <string name="hint_oppo_ch">Tapez le numero de chequier</string>
+    <string name="hint_oppo_c">Tapez le numero de carte</string>
+    
+    <string name="bouton_oppo">Valider</string>
+</resources>

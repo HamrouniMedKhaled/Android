@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        >
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+             <ImageView 
+        android:src="@drawable/packjeune"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+	    android:padding="10dp"
+            />
+    
+             <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Vous êtes étudiants ou élèves en classe terminales ?\n
+Vous avez entre 16 et 29 ans ?"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="@string/details1_pack_jeune"/>
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Un compte"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="@string/details2_pack_jeune"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Une carte"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="@string/details3_pack_jeune"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Une crédit"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="@string/details4_pack_jeune"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Et plus encore"/>
+    
+    <TextView 
+                
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="25dp"
+                android:text="@string/details5_pack_jeune"/>
+   
+            
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

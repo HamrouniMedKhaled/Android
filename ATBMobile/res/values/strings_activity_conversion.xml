@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="monnaie_a_convertir">Le montant à convertir</string>
+    <string name="monnaie_a_convertir_hint">tapez Le montant</string>
+    <string name="choix_de_devise">Devise</string>
+    <string name="bouton_convertir">Convertir</string>
+</resources>

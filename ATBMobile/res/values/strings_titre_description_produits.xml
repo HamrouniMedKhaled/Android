@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carte_lella">Carte Lella</string>
+    <string name="desc_carte_lella">• Suivre régulièrement votre budget car toutes les dépenses liées à la carte Lella sont constatées sur votre relevé mensuel.\n\n• D’effectuer vos retraits en toutes qui étude puisque le débit sur votre compte n’est effectué qu’en fin de mois. </string>
+    <string name="service_carte_lella">• Une assurance-protection des moyens de paiement contre la perte et le vol de la carte.\n• Une assistance en Tunisie: dont bénéficie également votre conjoint et enfants de moins de 18 ans.\n• Un accès à ATBNET: www.atbnet.com.tn ou ATB mobile pour le suivi régulier de vos transactions. </string>
+    
+    <string name="carte_moussafer">Carte Moussafer</string>
+    <string name="desc_carte_moussafer">• Disposer de la totalité ou d’une partie du montant de votre allocation sur la carte moussafer.\n• Effectuer vos réservations d’hôtels sur internet depuis la Tunisie.\n• Faire face à toutes vos dépenses à l’étranger soit en payant directement vos achats auprès des commerçants affiliés Mastercard soit en retirant des espèces auprès d’un DAB ou dans une agence bancaire.\n• Percevoir le montant de votre détaxe directement sur votre carte.\n\nUne fois de retour en Tunisie vous devez vous rendre à votre agence ATB muni de votre passeport pour mettre à jour votre dossier.</string>
+    <string name="service_carte_moussafer">• Une assurance assistance avec couverture des frais médicaux à hauteur de 30 000 euros exclusivement destinée aux clients ATB.\n• Une protection des moyens de paiement : ATB Protect.\n• Un suivi régulier de vos opérations* grâce à notre service de banque en ligne ATBNet sur l’adresse suivante : www.atbnet.com.tn</string>
+    <string name="conseil_carte_moussafer">En plus de la carte moussafer, prévoyez de prendre avec vous des espèces pour faire face aux premières dépenses...\n\nRenseignez vous avant votre voyage (auprès du consulat, de votre agence de voyages …) de l’acceptation des cartes bancaires dans le pays de destination.</string>
+    
+    <string name="carta_atb_visa_et_mastercard">ATB Visa et Mastercard</string>
+    <string name="desc_carta_atb_visa_et_mastercard">Ces cartes constituent le complément indispensable de votre compte chèques.\n\nEn plus de vos opérations de retrait et de paiement, vous pouvez, grâce à un plafond hebdomadaire personnalisé, optimiser la gestion de votre compte.\n\nPlus : une protection des moyens de paiement : ATB Protect.</string>
+    <string name="service_carta_atb_visa_et_mastercard">Votre compte vous suit à l’étranger, dans le réseau mondial de Distributeurs Automatiques de billets et chez plus de 30 millions de commerçants et de prestataires de services dans le monde affichant les logos VISA et MASTERCARD.\n\nPlus : une protection des moyens de paiement : ATB Protect.</string>
+    
+    <string name="compte_Compte_cheques_en_dinars_et_en_dinars_convertibles">Compte chèques en dinars et en dinars convertibles</string>
+    <string name="desc_Compte_cheques_en_dinars_et_en_dinars_convertibles">Le compte chèque en dinars et en dinars convertibles est destiné aux non-résidents de nationalité tunisienne ou étrangère. Le titulaire de ce compte peut effectuer les opérations suivantes sur son compte:\n\n• Disposer des fonds librement et à tout moment en Tunisie et à l’étranger.\n
+• Recevoir des fonds de l’étranger et de transférer des fonds à l’étranger librement.\n
+• Accéder au service gratuit de consultation de compte ATBNET ou ATB mobile.\n\n• Disposer des fonds librement et à tout moment en Tunisie et à l’étranger.\n
+• Recevoir des fonds de l’étranger et de transférer des fonds à l’étranger librement.\n
+• Accéder au service gratuit de consultation de compte ATBNET</string>
+    
+    <string name="compte_Compte_cheques_en_dinars_convertibles_pour_les_TRE">Compte chèques en dinars convertibles pour les TRE</string>
+    <string name="desc_Compte_cheques_en_dinars_convertibles_pour_les_TRE">Le compte chèque en dinars convertibles pour les tunisiens résidents à l’étranger permet :\n\n
+        • De disposer des fonds librement et à tout moment en Tunisie et à l’étranger.\n
+• De recevoir des fonds de l’étranger et de transférer des fonds à l’étranger librement.\n
+• D’accéder au service gratuit de consultation de compte: ATBNET ou ATB mobile.\n
+• De bénéficier des services inhérents aux comptes de chèques.\n
+• De souscrire à une carte bancaire internationale.\n
+• De disposer des services de la salle des changes.\n
+• D’effectuer des placements.\n\n
+Ce compte porte rémunération indexée sur le taux du marché monétaire (TMM) à hauteur
+de TMM- 2%.\n
+Ce compte est totalement exonéré d’impôts.  </string>
+
+    <string name="Compte_professionel_en_dinars_convertibles_ou_en_devises">Compte professionel en dinars convertibles ou en devises</string>
+    <string name="desc_Compte_professionel_en_dinars_convertibles_ou_en_devises">Pour ceux qui disposent de revenus en devises résultant d’opérations d’ exportation
+il permet notamment :\n\n
+• De garder une partie des revenus en devises.\n
+• De disposer de ces fonds librement et à tout moment en Tunisie et à l’étrange\n
+• D’accéder au service gratuit de consultation de compte ATBNET ou ATB mobile.\n\n
+• De bénéficier des services inhérents aux comptes de chèques.\n
+• D’effectuer des placements à vue ou à terme.\n
+• Ce compte peut en outre être rémunéré. Il est totalement exonéré d’impôts. </string>
+
+    <string name="compte_Jeune">Compte Jeune</string>
+    <string name="desc1_compte_Jeune">Comme tu es mineur, ce compte va fonctionner sous l’administration légale de tes parents. C’est donc accompagné de ton tuteur légal que tu te rendras à l’agence ATB de ton choix pour accomplir avec lui les formalités suivantes :\n\n
+        • Remplir et signer le formulaire de demande d’ouverture d’un compte de dépôts à ton nom.\n
+• Signer les deux cartons de signature.\n
+• Signer la lettre d’engagement par laquelle ton tuteur t’autorise à avoir un compte Jeune ATB.\n
+• Remplir et signer le formulaire de demande de ta carte « C’jeune » en précisant le plafond de retrait autorisé par mois.\n\n
+Il suffit alors de verser dans ton compte un montant initial au moins égal à ce plafond mensuel de retrait et te voilà titulaire d’un compteJeune ATB. </string>
+<string name="desc2_compte_jeune">Une carte C’Jeune qui te permet de retirer de l’argent 24 h / 24 et 7j/7 dans plus de 700 distributeurs. Grâce à son système de consultation automatique du solde du compte, elle te permet d’éviter tout dérapage et de bien rester dans ton budget. La gratuité des frais de tenue compte.\n\n
+    Un service d’assistance et d’assurance gratuit comprenant : Une assurance en cas de perte ou de vol de ta carte C’Jeune, de tes clés ou de tes papiers officiels avec participation aux frais de remplacement Une assurance assistance en Tunisie et à l’Etranger avec couverture des frais médicaux à hauteur de 30 000 Euros. Un relevé de compte qui t’est adressé tous les mois pour te permettre de bien suivre ton compte La possibilité de consulter ton compte à distance grâce à ATB Net ou ATB mobile.\n\n
+    Tu vois, tout est plus facile avec un compte Jeunes : économiser son argent de poche, retirer de l’argent quant on le veut, où l’on veut, ….bref se sentir libre et responsable à la fois. Alors direction l’ATB, ou tu trouveras réponse à toutes tes questions. </string>
+    
+<string name="Pack_Gisr">Pack Gisr</string>
+<string name="intro_Pack_Gisr">L\’ATB au service des tunisiens ou qu\’ils soient et quelque soit leur âge. En ouvrant un compte à l\’Arab Tunisian Bank, vous devenez client d\’une des banques les plus dynamiques et innovantes du marché tunisien, présente à travers nos agence dans tout le territoire ainsi qu\’à l\'étranger à travers notre vaste réseau de correspondants.\n\n
+    Toujours à votre écoute, l\’ATB met à votre disposition une large gamme de produits et services adaptés à vos besoins spécifiques.\n\n
+Vous êtes Travailleur Tunisien à l\'Etranger (TTE). Cet ensemble de produits a été spécialement mis au point pour vous.\n\n
+</string>
+<string name="comprend_Pack_Gisr">• Un compte à vue TTE rémunéré.\n
+• Une carte Gold internationale.\n
+• Un service de banque en ligne: ATBNET.\n
+• Un compte d’épargne en devises ou en dinars convertibles.\n\n</string>
+<string name="tout_Pack_Gisr">• Une protection des moyens de paiement en Tunisie et à l’étranger.\n
+• Une assurance assistance.\n
+• Vous pouvez compléter ce pack en souscrivant à d’autres produits et notamment l’épargne ATB El Khir ce qui vous permettra de solliciter toutes sortes de crédits ATB à taux bonifiés.\n
+• Il vous sera remis à votre convenance soit un livret soit une carte qui fonctionne comme une carte de paiement.\n
+• Vous pouvez même souscrire au profit d’un membre de votre famille en Tunisie une carte bancaire ATB dont vous délimiterez le plafond de retrait.\n
+• Et en plus, les intérêts générés par le Pack GISR sont totalement exonérés d’impôt.</string>
+
+<string name="Pack_Jeune">Pack Jeune</string>
+<string name="details1_pack_jeune">L\'ATB a mis au point le pack jeune, un ensemble de services bancaires adaptés à vos besoins qui vous permet de faire vos premiers pas dans le monde bancaire en toute sécurité.\n\n
+    En effet Pack jeune rassemble un ensemble de produits complémentaires à savoir un COMPTE, une CARTE et un CREDIT.\n\n</string>
+<string name="details2_pack_jeune">Il sagit du compte jeune pour les 16-20 ans ou du compte de dépôts à vue avec les faveurs du compte jeune pour les 20-29 ans.\n\n</string>
+<string name="details3_pack_jeune">Avec votre carte C\'Jeune, le montant de votre retrait ou achat sera débité immédiatement de votre compte jeune.\n\n</string>
+<string name="details4_pack_jeune">Un crédit raisonnable qui tient compte de vos rentrées d\'argent et de vos divers besoins: frais de 1ère installation, frais de scolarité...</string>    
+<string name="details5_pack_jeune">• La consultation de votre compte et l\'accès aux services de ATB Net ou ATB mobile, notre banque à distance, est gratuite.\n
+• La protection de l\'ensemble de vos moyens de paiement : ATB Protect> , y compris vos clés (de voiture ou maison) et vos papiers officiels (CIN, passeport ...) perdus ou volés en même temps, avec participation au frais de remplacement.\n
+• Une assurance assistance gratuite en Tunisie et à l\'étranger avec couverture des frais médicaux à hauteur de 30 000 Euro.</string>
+</resources>

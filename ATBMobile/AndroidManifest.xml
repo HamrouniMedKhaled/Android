@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pfe.mobilebanking.atbmobile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:maxSdkVersion="19"
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/atb"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.AccueilActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateVisible" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateVisible" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.EspaceClientActivity"
+            android:label="@string/title_activity_espace_client"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.ParametreActivity"
+            android:label="@string/title_activity_parametre"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.ChequierActivity"
+            android:label="@string/title_activity_chequier"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.CarteActivity"
+            android:label="@string/title_activity_carte"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.DialogueNumeroCompteActivity"
+            android:label="@string/title_activity_dialogue_numero_compte"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.GabMap"
+            android:label="@string/title_activity_gab_map"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.HistoriqueActivity"
+            android:label="@string/title_activity_historique"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.StatistiqueActivity"
+            android:label="@string/title_activity_statistique"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.CompteActivity"
+            android:label="@string/title_activity_compte"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.VirementActivity"
+            android:label="@string/title_activity_virement"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateVisible" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.ConversionActivity"
+            android:label="@string/title_activity_conversion"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateVisible" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.ProduitActivity"
+            android:label="@string/title_activity_produit"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.SoldeActivity"
+            android:label="@string/title_activity_solde"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.GabActivity"
+            android:label="@string/title_activity_gab"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.GabLocalisationActivity"
+            android:label="@string/title_activity_gab_localisation"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBpxqBaKL7moFmYaNFpj6afqBGLlkqCRxY" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.CodeActivity"
+            android:label="@string/title_activity_code" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.SplashActivity"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.DemandeChequierActivity"
+            android:label="@string/title_activity_demande_chequier" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.OppositionChequierActivity"
+            android:label="@string/title_activity_opposition_chequier" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.OppositionCarteActivity"
+            android:label="@string/title_activity_opposition_carte" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.DemandeCarteActivity"
+            android:label="@string/title_activity_demande_carte" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.PasswordActivity"
+            android:label="@string/title_activity_password" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.AddMailActivity"
+            android:label="@string/title_activity_add_mail" >
+        </activity>
+        <activity
+            android:name="pfe.mobilebanking.atbmobile.DeleteMailActivity"
+            android:label="@string/title_activity_delete_mail" >
+        </activity>
+    </application>
+
+</manifest>

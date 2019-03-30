@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/LoginFormContainer"
+    android:background="@drawable/background_atbm"
+    android:orientation="vertical" 
+    >    
+    
+    <TextView 
+                style="@style/titre_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titre_activity_statistique"/>
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+    
+    <ScrollView 
+        android:id="@+id/scroll_view_statistique"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+                    
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/periode"/>
+    
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_de"/>
+            
+            <TextView 
+                android:id="@+id/date_periode_de"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" "/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_a"/>
+            
+            <TextView 
+                android:id="@+id/date_periode_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" "/>
+            
+            
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rip_selection"/>
+            
+            <TextView 
+                android:id="@+id/list_rip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" "/>
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+            
+            <ListView
+                android:id="@+id/list_transactions"
+                android:layout_width="fill_parent"
+                android:layout_height="500dp" 
+                
+                >
+                
+            </ListView>
+            
+            
+            
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>
+

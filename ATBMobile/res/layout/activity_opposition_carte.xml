@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_atbm"
+    style="@style/LoginFormContainer"
+    android:orientation="vertical"
+    tools:context=".OppositionCarteActivity" >
+
+    <TextView 
+                style="@style/titre_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titre_activity_opposition_carte"/>
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+            
+            <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/num_carte" 
+        />
+        
+        <EditText 
+               android:id="@+id/editnumcarte"
+               style="@style/champs_text"
+               android:hint="@string/hint_oppo_c"
+               android:inputType="number|textUri"
+               android:maxLength="20"
+               android:singleLine="true"
+               />
+        
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/raisan" 
+        />
+        
+        <Spinner
+            android:id="@+id/raisons_oppostions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            />
+        
+        <Button
+                android:id="@+id/button_oppo_c"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:layout_gravity="center"
+                android:width="150dp"
+                style="@style/text_button"
+                android:background="@drawable/boutonpersonnalise"
+                android:text="@string/bouton_oppo"/>
+
+</LinearLayout>

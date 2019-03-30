@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bouton_modifier_mot_de_passe">Modifier mot de passe</string>
+    <string name="bouton_ajouter_e_mail">Ajouter un e-mail</string>
+    <string name="bouton_supprimer_e_mail">Supprimer un e-mail</string>
+</resources>

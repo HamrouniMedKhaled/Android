@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background_atbm"
+    style="@style/LoginFormContainer"
+    android:orientation="vertical" 
+    >  
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+    
+    <TextView 
+        android:id="@+id/titreCompte"
+                style="@style/titre_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titre_activity_compte"/>
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+    
+    <ScrollView 
+        android:id="@+id/scroll_view_compte"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+                    
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/list_compte"/>
+            
+            <ListView 
+                android:id="@+id/list_num_compte_compte"
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:choiceMode="multipleChoice"
+                >
+                
+                </ListView>
+            
+            
+            </LinearLayout>
+            </ScrollView>
+            
+    <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="10dp"
+            />
+            
+            <Button
+                android:id="@+id/button_compte_affiche"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:text="@string/bouton_statistique"
+                android:background="@drawable/boutonpersonnalise"
+                style="@style/text_button"/>
+          
+        </LinearLayout>
+    
+
+</RelativeLayout>
+

@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/LoginFormContainer"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:background="@drawable/background_atbm"
+    android:orientation="vertical"
+    tools:context=".EspaceClientActivity" >
+    
+    <TextView 
+                style="@style/titre_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titre_activity_espace_client"/>
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/divider"
+        android:paddingBottom="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitXY"
+        style="@style/Divider"
+        android:src="@android:drawable/divider_horizontal_dim_dark" />
+    
+    <Button
+        android:id="@+id/bGestionCompte"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_gestion_compte" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+    
+    <Button
+        android:id="@+id/bHistorique"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_de_historique" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+    
+    <Button
+        android:id="@+id/bVirement"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_virement" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+    
+    <Button
+        android:id="@+id/bChequier"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_chequier" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+    
+    <Button
+        android:id="@+id/bCarte"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_carte" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+    
+    <Button
+        android:id="@+id/bParametre"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton_parametre" 
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/boutonpersonnalise"
+        style="@style/text_button"
+        />
+    
+</LinearLayout>

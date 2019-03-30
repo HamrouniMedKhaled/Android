@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_atbm"
+    style="@style/LoginFormContainer"
+    android:orientation="vertical"
+    tools:context=".DemandeChequierActivity" >
+
+    <TextView 
+                style="@style/titre_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titre_activity_demande_chequier"/>
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+            
+            <TextView 
+               
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/vir_num_compte"/>
+            
+            <TextView 
+               android:id="@+id/de_compte_selectionne"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginBottom="20dp"
+               android:text=""/>
+            
+            <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chequier_de" 
+        />
+        
+            <Spinner
+            android:id="@+id/cheques_nombres"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            />
+            
+            <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chequier_Type" 
+        />
+        
+            <Spinner
+            android:id="@+id/chequier_type"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            />
+            
+            <Button
+                android:id="@+id/button_demande_ch"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:layout_gravity="center"
+                android:width="150dp"
+                style="@style/text_button"
+                android:background="@drawable/boutonpersonnalise"
+                android:text="@string/chequier_demande"/>
+    
+</LinearLayout>

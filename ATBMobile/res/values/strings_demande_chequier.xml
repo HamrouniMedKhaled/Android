@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chequier_de">Chéquier de:</string>
+    <string name="chequier_Type">Type:</string>
+    <string name="chequier_demande">Demander</string>
+    <string-array name="nombres_cheques">
+        <item>20</item>
+        <item>25</item>
+        <item>50</item>
+    </string-array>
+    
+   <string-array name="type_chequier">
+       <item>Non endossable barrés</item>
+       <item>Non endossable non barrés</item>
+   </string-array>
+</resources>

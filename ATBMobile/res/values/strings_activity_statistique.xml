@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="periode">Période:</string>
+    <string name="date_de">De:</string>
+    <string name="date_a">à:</string>
+    <string name="rip_selection">RIP:</string>
+    <string name="bouton_retour_statistique">Retour</string>
+</resources>

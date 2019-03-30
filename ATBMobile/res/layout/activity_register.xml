@@ -1,0 +1,255 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    
+    >
+    
+    <!-- Login progress -->
+
+    <LinearLayout
+        android:id="@+id/register_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/register_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/login_progress_signing_in"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        style="@style/LoginFormContainer"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background_atbm">
+        
+        <LinearLayout 
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+            
+            <TextView 
+                style="@style/titre_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titre_activity_inscription"/>
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+            
+        </LinearLayout>
+        
+        
+            
+            <ScrollView
+        android:id="@+id/scroll_view_inscription"
+        android:layout_width="fill_parent"	
+        android:layout_height="wrap_content"
+        >
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/form_nom"/>
+        
+            <EditText 
+               android:id="@+id/editNom"
+               style="@style/champs_text"
+               android:hint="@string/form_nom_hint"
+               android:maxLength="20"
+               android:singleLine="true"
+               />
+            
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/form_prenom"/>
+        
+            <EditText 
+               android:id="@+id/editPrenom"
+               style="@style/champs_text"
+               android:hint="@string/form_prenom_hint"
+               android:maxLength="30"
+               android:singleLine="true"
+               />
+            
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/form_cin"/>
+        
+            <EditText 
+               android:id="@+id/editCin"
+               style="@style/champs_text"
+               android:hint="@string/form_cin_hint"
+               android:maxLength="8"
+               android:singleLine="true"
+               android:inputType="numberDecimal"
+               />
+        
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+            
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/form_statue"/>
+            
+            <RadioGroup
+               android:id="@+id/groupSituation"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:checkedButton="@+id/radioMr"
+               android:orientation="horizontal" 
+            >
+               <RadioButton
+                  android:id="@+id/radioMr"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/radio_Monsieur" 
+               />
+               <RadioButton
+                  android:id="@+id/radioMlle"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/radio_Mademoiselle" 
+               />
+               <RadioButton
+                  android:id="@+id/radioMme"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/radio_Madame" 
+               />
+            </RadioGroup>
+           
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/form_mdp"/>
+        
+            <EditText 
+               android:id="@+id/editMdp"
+               style="@style/champs_text"
+               android:hint="@string/form_mdp_hint1"
+               android:singleLine="true"
+               android:imeActionId="@+id/Register"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+               android:inputType="textPassword"
+               />
+            
+            <EditText 
+               android:id="@+id/editRMdp"
+               style="@style/champs_text"
+               android:hint="@string/form_mdp_hint2"
+               android:singleLine="true"
+               android:inputType="textPassword"
+               />
+            
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/form_mail"/>
+            
+            <EditText 
+               android:id="@+id/editMail"
+               style="@style/champs_text"
+               android:hint="@string/form_mail_hint"
+               android:singleLine="true"
+               android:inputType="textEmailAddress"
+               />
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="10dp"
+            />
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" 
+                >
+                
+                <Button
+                android:id="@+id/button_enregistrer"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:layout_gravity="center"
+                android:width="150dp"
+                android:background="@drawable/boutonpersonnalise"
+                android:text="@string/form_bouton_enregistrer"
+                style="@style/text_button"/>
+            
+            
+                
+            </LinearLayout>
+            
+            
+            
+        </LinearLayout>
+        
+     </ScrollView>
+            
+        
+     
+    </LinearLayout>
+</merge>

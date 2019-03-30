@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vir_num_compte">Numéro du compte selectionné:</string>
+    <string name="vir_num_compte_dest">Numéro du compte destinataire:</string>
+    <string name="vir_num_compte_dest_hint">tapez le numéro de bénéficiaire</string>
+    <string name="vir_solde">Solde:</string>
+    <string name="vir_solde_hint">tapez le solde à transférer</string>
+    <string name="vir_aide">Exemple de solde correcte:\n 1 = 1 DT \n 20.5 = 20.500 DT</string>
+    <string name="vir_bouton_envoyer">Effectuer</string>
+    <string name="error_solde">Le solde doit être inferieur ou egale à 300 DT</string>
+</resources>

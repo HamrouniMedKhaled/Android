@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_atbm"
+    style="@style/LoginFormContainer"
+    android:orientation="vertical" 
+    >    
+    
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView 
+                style="@style/titre_activity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titre_activity_virement"/>
+            
+            <ImageView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:contentDescription="@string/divider"
+               android:paddingBottom="2dp"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:paddingTop="2dp"
+               android:scaleType="fitXY"
+               style="@style/Divider"
+               android:src="@android:drawable/divider_horizontal_dim_dark"
+               android:layout_marginTop="20dp"
+               android:layout_margin="20dp"
+            />
+            
+            <TextView 
+               
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/vir_num_compte"/>
+         
+            
+            <TextView 
+               android:id="@+id/vir_compte_selectionne"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:layout_marginBottom="20dp"
+               android:text=""/>
+    
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/vir_num_compte_dest"/>
+        
+            <EditText 
+               android:id="@+id/edit_vir_compte_dest"
+               style="@style/champs_text"
+               android:hint="@string/vir_num_compte_dest_hint"
+               android:inputType="numberDecimal"
+               android:maxLength="11"
+               android:layout_marginBottom="20dp"
+               android:singleLine="true"
+               />
+            
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/vir_solde"/>
+        
+            <EditText 
+               android:id="@+id/edit_vir_solde"
+               style="@style/champs_text"
+               android:hint="@string/vir_solde_hint"
+               android:inputType="number|text"
+               android:maxLength="20"
+               android:layout_marginBottom="20dp"
+               android:singleLine="true"
+               />
+            
+            <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="20dp"
+               android:text="@string/vir_aide"/>
+        
+    </LinearLayout>
+    
+    
+            
+            <Button
+                android:id="@+id/button_virement_effectuer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:layout_gravity="center"
+                android:width="150dp"
+                android:background="@drawable/boutonpersonnalise"
+                android:layout_alignParentBottom="true"
+                android:text="@string/vir_bouton_envoyer"
+                style="@style/text_button"/>
+      
+</RelativeLayout>
+

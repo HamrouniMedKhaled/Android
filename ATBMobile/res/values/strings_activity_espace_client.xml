@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   
+    
+    <string name="bouton_gestion_compte">Mon compte</string>
+    <string name="bouton_de_historique">historique</string>
+    <string name="bouton_virement">Virement</string>
+    <string name="bouton_chequier">Chéquier</string>
+    <string name="bouton_carte">Carte</string>
+    <string name="bouton_parametre">Paramètres</string>
+</resources>

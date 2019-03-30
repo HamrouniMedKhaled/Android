@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="numero_compte">choisir un compte:</string>
+    <string name="date_debut">Début:</string>
+    <string name="date_fin">Fin:</string>
+    <string name="entrer">Entrer</string>
+    <string name="bouton_statistique">Afficher</string>
+</resources>

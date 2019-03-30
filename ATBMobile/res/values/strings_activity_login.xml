@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="title_activity_login">ATB Mobile</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">CIN</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in"><b>Connexion</b></string>
+    <string name="action_sign_in_short">Connexion</string>
+    <string name="action_forgot_password">Mot de passe perdu!</string>
+    <string name="login_progress_signing_in">Connexion en cours&#8230;</string>
+    <string name="error_invalid_email">ce numéro CIN est invalide</string>
+    <string name="error_invalid_password">Mot de passe trop court</string>
+    <string name="error_incorrect_password">Cette mot de passe est incorrecte</string>
+    <string name="error_field_required">Ce champ est obligatoire</string>
+    
+    <string name="divider">Séparateur</string>
+    <string name="nouvelle_inscription">Si vous êtes un client ATB et vous n\'avez pas encors votre compte en ligne, vous pouvez le créer maintenant</string>
+    <string name="action_register"><b>Inscription</b></string>
+
+</resources>
